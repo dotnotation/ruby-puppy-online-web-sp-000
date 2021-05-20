@@ -1,3 +1,4 @@
+
 class Dog
   
   @@all=[]
@@ -23,6 +24,7 @@ class Dog
   
   def self.print_all
     @@all.each do |name|
+      name.to_s
       puts "#{name}"
     end
   end
